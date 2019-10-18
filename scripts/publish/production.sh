@@ -18,3 +18,5 @@ cp -R $PROJECT_DIST_FOLDER/* $PARENT/$DIST_NAME &&
 cd $PARENT/$DIST_NAME &&
 
 git add . && git commit -m "update version" && git push origin production
+
+rm -rf $PARENT/$DIST_NAME
