@@ -2,12 +2,14 @@
 
 cd dist &&
 
-git remote add origin https://github.com/mauricionobrega/smartmirror.com.br-www.git &&
+ls -lia
 
-git checkout production &&
+# git remote add origin https://github.com/mauricionobrega/smartmirror.com.br-www.git &&
 
-git add . &&
+# git checkout production &&
 
-git commit -f -m \"update version\" &&
+# git add . &&
 
-git push origin production
+# git commit -f -m \"update version\" &&
+
+# git push origin production

@@ -23,3 +23,4 @@ jspm_packages/
 
 # Dist folder
 dist
+dist/.git
