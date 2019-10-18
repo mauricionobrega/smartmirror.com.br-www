@@ -1,0 +1,23 @@
+{
+  "verbose": true,
+  "ignore": [
+    "*.log",
+    ".git/**",
+    "node_modules/**",
+    ".editorconfig",
+    ".eslintignore",
+    ".eslintrc.js",
+    ".gitignore",
+    ".npmignore",
+    ".nvmrc",
+    "nodemon.json",
+    "README.md"
+  ],
+  "execMap": {
+    "rb": "ruby",
+    "pde": "processing --sketch={{pwd}} --run"
+  },
+  "env": {
+    "NODE_ENV": "local"
+  }
+}
