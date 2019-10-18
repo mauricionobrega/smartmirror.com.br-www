@@ -1,15 +1,23 @@
 #!/bin/bash
 
-cd dist &&
+DIST=../smartmirror.com.br-www-dist
 
-ls -lia
+# rm -rf $DIST &&
+
+# npm run build &&
+
+cd $DIST &&
+
+# git init &&
 
 # git remote add origin https://github.com/mauricionobrega/smartmirror.com.br-www.git &&
 
-# git checkout production &&
+# git fetch --all &&
 
-# git add . &&
+git add . &&
 
-# git commit -f -m \"update version\" &&
+git commit -m \"update version\" &&
+
+git checkout origin production
 
 # git push origin production
