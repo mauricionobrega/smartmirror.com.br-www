@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_NAME=smartmirror.com.br-www
+PROJECT_NAME=supermirror.com.br-www
 PROJECT_DIST_FOLDER=./dist
 DIST_NAME=$PROJECT_NAME-dist
 PARENT=..

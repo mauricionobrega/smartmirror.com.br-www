@@ -4,6 +4,6 @@ module.exports = {
     outputPath: './dist'
   },
   site: {
-    title: 'Smart Mirror Brasil'
+    title: 'Super Mirror Brasil'
   }
 };

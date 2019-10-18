@@ -1,7 +1,7 @@
 {
-  "name": "smartmirror.com.br-www",
+  "name": "supermirror.com.br-www",
   "version": "1.0.0",
-  "description": "Website for Smart Mirror Brasil",
+  "description": "Website for Super Mirror Brasil",
   "main": "site.config.js",
   "engines": {
     "node": "12.12.0",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mauricionobrega/smartmirror.com.br-www.git"
+    "url": "git+https://github.com/mauricionobrega/supermirror.com.br-www.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mauricionobrega/smartmirror.com.br-www/issues"
+    "url": "https://github.com/mauricionobrega/supermirror.com.br-www/issues"
   },
-  "homepage": "https://github.com/mauricionobrega/smartmirror.com.br-www#readme",
+  "homepage": "https://github.com/mauricionobrega/supermirror.com.br-www#readme",
   "devDependencies": {
     "nanogen": "^0.4.2"
   }
