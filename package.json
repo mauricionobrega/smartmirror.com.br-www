@@ -10,7 +10,7 @@
   "scripts": {
     "start": "npx nanogen start",
     "build": "npx nanogen build",
-    "publish": "rm -rf dist && npm run build && cd dist && ls -lia "
+    "publish": "rm -rf dist && npm run build && cd dist && sh scripts/publish/production.sh"
   },
   "repository": {
     "type": "git",
