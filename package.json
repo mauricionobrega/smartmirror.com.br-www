@@ -1,0 +1,25 @@
+{
+  "name": "smartmirror.com.br-www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "site.config.js",
+  "scripts": {
+    "start": "nanogen start",
+    "build": "nanogen build",
+    "publish": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricionobrega/smartmirror.com.br-www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauricionobrega/smartmirror.com.br-www/issues"
+  },
+  "homepage": "https://github.com/mauricionobrega/smartmirror.com.br-www#readme",
+  "devDependencies": {
+    "nanogen": "^0.4.2"
+  }
+}
