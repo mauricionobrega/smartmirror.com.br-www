@@ -1,7 +1,7 @@
 module.exports = {
   build: {
     srcPath: './src',
-    outputPath: '../smartmirror.com.br-www-dist'
+    outputPath: './dist'
   },
   site: {
     title: 'Smart Mirror Brasil'

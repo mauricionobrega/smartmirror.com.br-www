@@ -1,23 +1,20 @@
 #!/bin/bash
 
-DIST=../smartmirror.com.br-www-dist
+PROJECT_NAME=smartmirror.com.br-www
+PROJECT_DIST_FOLDER=./dist
+DIST_NAME=$PROJECT_NAME-dist
+PARENT=..
+DIST_PATH=../$PROJECT_NAME-dist
+BRANCH=production
 
-# rm -rf $DIST &&
+# PREPARE FOLDER
+rm -rf $DIST_PATH && cd $PARENT/ && git clone https://github.com/mauricionobrega/$PROJECT_NAME.git $DIST_NAME && cd $DIST_NAME && git checkout $BRANCH &&
 
-# npm run build &&
+# BUILD PROJECT
+cd $PARENT/$PROJECT_NAME && npm run build &&
 
-cd $DIST &&
+cp -R $PROJECT_DIST_FOLDER/* $PARENT/$DIST_NAME &&
 
-# git init &&
+cd $PARENT/$DIST_NAME &&
 
-# git remote add origin https://github.com/mauricionobrega/smartmirror.com.br-www.git &&
-
-# git fetch --all &&
-
-git add . &&
-
-git commit -m \"update version\" &&
-
-git checkout origin production
-
-# git push origin production
+git add . && git commit -m "update version" && git push origin production
