@@ -1,9 +1,9 @@
 module.exports = {
   build: {
     srcPath: './src',
-    outputPath: './public'
+    outputPath: './dist'
   },
   site: {
-    title: 'Nanogen site'
+    title: 'Smart Mirror Brasil'
   }
 };
