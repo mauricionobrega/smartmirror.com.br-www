@@ -1,12 +1,16 @@
 {
   "name": "smartmirror.com.br-www",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website for Smart Mirror Brasil",
   "main": "site.config.js",
+  "engines": {
+    "node": "12.12.0",
+    "npm": "6.11.3"
+  },
   "scripts": {
-    "start": "nanogen start",
-    "build": "nanogen build",
-    "publish": ""
+    "start": "npx nanogen start",
+    "build": "npx nanogen build",
+    "publish": "rm -rf dist && npm run build && cd dist && ls -lia "
   },
   "repository": {
     "type": "git",
