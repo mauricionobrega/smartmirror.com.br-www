@@ -5,7 +5,7 @@ PROJECT_DIST_FOLDER=./dist
 DIST_NAME=$PROJECT_NAME-dist
 PARENT=..
 DIST_PATH=../$PROJECT_NAME-dist
-BRANCH=gh-pages
+BRANCH=master
 
 # PREPARE FOLDER
 rm -rf $DIST_PATH && cd $PARENT/ && git clone https://github.com/mauricionobrega/$PROJECT_NAME.git $DIST_NAME && cd $DIST_NAME && git checkout $BRANCH &&
