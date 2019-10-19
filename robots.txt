@@ -1,0 +1,10 @@
+User-agent: Mediapartners-Google*
+Disallow:
+
+User-agent: *
+Allow: /
+Disallow: /.git
+Sitemap: http://supermirror.com.br/sitemap.xml
+
+
+# All robot names: https://www.robotstxt.org/db.html
