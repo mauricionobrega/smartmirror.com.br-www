@@ -14,9 +14,10 @@ rm -rf $DIST_PATH && cd $PARENT/ && git clone https://github.com/supermirror/$PR
 cd $PARENT/$PROJECT_NAME && npm run build &&
 
 cp -R $PROJECT_DIST_FOLDER/* $PARENT/$DIST_NAME &&
+cp CNAME $PARENT/$DIST_NAME &&
 
 cd $PARENT/$DIST_NAME &&
 
 git add . && git commit -m "update version" && git push origin $BRANCH
 
-rm -rf $PARENT/$DIST_NAME
+# rm -rf $PARENT/$DIST_NAME

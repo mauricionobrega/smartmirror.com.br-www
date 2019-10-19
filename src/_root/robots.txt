@@ -1,0 +1,8 @@
+User-agent: *
+
+Allow: /
+
+
+# Sitemap: http://www.example.com/sitemap.xml
+
+# All robot names: https://www.robotstxt.org/db.html
