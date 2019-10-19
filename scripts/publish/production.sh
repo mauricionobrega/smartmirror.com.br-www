@@ -2,6 +2,7 @@
 
 PROJECT_NAME=supermirror.github.io
 PROJECT_DIST_FOLDER=./dist
+PROJECT_ROOT_FOLDER=./src/_root
 DIST_NAME=$PROJECT_NAME-dist
 PARENT=..
 DIST_PATH=../$PROJECT_NAME-dist
@@ -14,6 +15,7 @@ rm -rf $DIST_PATH && cd $PARENT/ && git clone https://github.com/supermirror/$PR
 cd $PARENT/$PROJECT_NAME && npm run build &&
 
 cp -R $PROJECT_DIST_FOLDER/* $PARENT/$DIST_NAME &&
+cp -R $PROJECT_ROOT_FOLDER/* $PARENT/$DIST_NAME &&
 cp CNAME $PARENT/$DIST_NAME &&
 
 cd $PARENT/$DIST_NAME &&
