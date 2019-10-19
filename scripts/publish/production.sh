@@ -22,4 +22,4 @@ cd $PARENT/$DIST_NAME &&
 
 git add . && git commit -m "update version" && git push origin $BRANCH
 
-# rm -rf $PARENT/$DIST_NAME
+rm -rf $PARENT/$DIST_NAME
