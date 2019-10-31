@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/mauricionobrega/supermirror.com.br-www#readme",
   "devDependencies": {
-    "nanogen": "^0.4.2"
+    "rellax": "^1.10.0"
   }
 }

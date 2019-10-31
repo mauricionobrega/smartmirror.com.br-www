@@ -42,5 +42,5 @@ footer {
 }
 
 .background {
-  background-image: url('../img/background.jpg');
+  background: url('../img/background.jpg') green no-repeat center/80%;
 }
