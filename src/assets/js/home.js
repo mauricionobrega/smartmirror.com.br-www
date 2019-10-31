@@ -1,7 +1,7 @@
 'use strict';
 (function(win, doc) {
 
-  var rellax = new Rellax('.rellax');
+  var rellax = new Rellax('.rellax'); // https://github.com/dixonandmoe/rellax
   console.log('===>>> ', rellax);
 
   // var scrolled, background;
