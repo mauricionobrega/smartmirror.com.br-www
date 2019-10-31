@@ -13,11 +13,11 @@
     "nodemon.json",
     "README.md"
   ],
+  "env": {
+    "NODE_ENV": "local"
+  },
   "execMap": {
     "rb": "ruby",
     "pde": "processing --sketch={{pwd}} --run"
-  },
-  "env": {
-    "NODE_ENV": "local"
   }
 }

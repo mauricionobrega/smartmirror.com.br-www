@@ -5,12 +5,14 @@
   "main": "site.config.js",
   "engines": {
     "node": "12.12.0",
-    "npm": "6.11.3"
+    "npm": "6.11.3",
+    "nodemon": "1.19.4"
   },
   "scripts": {
     "start": "npx nanogen start",
     "build": "npx nanogen build",
-    "publish": "sh scripts/publish/production.sh"
+    "publish": "sh scripts/publish/production.sh",
+    "watch": "nodemon --watch src/ -e js,css,png,ico,html,txt,xml,ejs -x \"npm run build\""
   },
   "repository": {
     "type": "git",
